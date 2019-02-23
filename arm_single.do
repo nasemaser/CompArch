@@ -47,8 +47,6 @@ add wave -noupdate -divider -height 32 "Datapath"
 add wave -hex /testbench/dut/arm/dp/*
 add wave -noupdate -divider -height 32 "ALU"
 add wave -hex /testbench/dut/arm/dp/alu/*
-add wave -noupdate -divider -height 32 "Shifter"
-add wave -hex /testbench/dut/arm/dp/sh/*
 add wave -noupdate -divider -height 32 "Control"
 add wave -hex /testbench/dut/arm/c/*
 add wave -noupdate -divider -height 32 "condcheck"
